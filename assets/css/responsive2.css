@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 375px;
+  height: 1872px;
+  top: -512px;
+  left: 4258px;
+  background-color:white ;
+}
+
+.header {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: none;
+}
+
+.header a img {
+  display: block;
+}
+
+.hero {
+  text-align: center;
+  width: 343px;
+  height: 636px;
+  margin: 88px 16px 64px;
+}
+
+.hero img {
+  width: 343px;
+  height: 300px;
+}
+
+.hero h1 {
+  width: 343px;
+  height: 120px;
+  top: 324px;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  width: 343px;
+  height: 104px;
+  top: 460px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(94, 96, 122, 1);
+}
+
+.payment-type {
+  background-color: rgba(241, 93, 81, 1);
+  text-align: center;
+  width: 185px;
+  height: 48px;
+  margin-top: 24px;
+}
+
+.payment-type a {
+  color:white;
+  width: 119px;
+  height: 24px;
+  top: 13px;
+  left: 31px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 4.375px;
+  text-align: left;
+}
+.payment-type:hover {
+  background-color:rgba(0, 0, 26, 1);
+}
+
+.payment-type:hover {
+  color: white; 
+}
+
+.payment-packs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 343px;
+  height: 489px;
+  top: 788px;
+  margin-left: 16px;
+  background-color: rgba(0, 0, 26, 1);
+  margin-bottom: 64px;
+}
+.payment-packs h1 {
+  width: 70px;
+  height: 32px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(233, 170, 82, 1);
+  margin: 24px 0px 0px 21px;
+}
+.pack1{
+  width: 302px;
+  height: 84px;
+  margin-left: 21px;
+}
+.pack1 h3 {
+  width: 262px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  margin-bottom: 8px;
+}
+.pack1 p {
+  color: rgba(197, 198, 206, 1);
+  width: 302px;
+  height: 52px;
+  top: 32px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.pack2{
+  width: 302px;
+  height: 84px;
+  top: 212px;
+  margin-left: 21px;  
+}
+.pack2 h3 {
+  width: 286px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  margin-bottom: 8px;
+}
+.pack2 h3:hover {
+  color:rgba(233, 170, 82, 1);
+}
+.pack2 p {
+  color: rgba(197, 198, 206, 1);
+  width: 302px;
+  height: 52px;
+  top: 32px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.pack3{
+  width: 302px;
+  height: 84px;
+  top: 357px;
+  margin-left: 21px;  
+}
+.pack3 h3 {
+  width: 250px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  margin-bottom: 8px;
+}
+.pack3 p {
+  color: rgba(197, 198, 206, 1);
+  width: 302px;
+  height: 52px;
+  top: 32px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.grid-container{
+  width: 343px;
+  height: 451px;
+}
+.grid-container .item{
+  width: 343px;
+  height: 129px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+.text{
+  width: 219px;
+  height: 129px;
+}
+.text h1{
+  width: 38px;
+  height: 32px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(197, 198, 206, 1);
+  margin-left: 140px;
+  margin-top: -138px;
+  margin-bottom: 12px;
+}
+.text h4 {
+  width: 219px;
+  height: 24px;
+  top: 44px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 140px;
+  margin-bottom: 9px;
+}
+.text p {
+  width: 219px;
+  height: 52px;
+  top: 77px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(94, 96, 122, 1);
+  margin-left: 140px;
+}
+.text a :hover {
+  color:rgba(241, 93, 81, 1);
+}
+
+@media only screen and (min-width: 1280px) {
+  .container{
+    width: 1440px;
+    height: 1024px;
+    top: -512px;
+    left: 2525px;
+  }
+  .header-nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: rgba(94, 96, 122, 1);
+  }
+  .header-nav a {
+    color: black; 
+    text-decoration: none; 
+    margin-right: 16px; 
+}
+  .header-nav a:nth-child(3):hover { 
+    color: rgba(241, 93, 81, 1); 
+}
+
+  .burger-menu{
+    display: none;
+  }
+  .header a img {
+    width: 64.09px;
+    height: 39.9px;
+    margin: 89px 0px 55px 165px;
+  }
+  .header-nav {
+    width: 431px;
+    height: 26px;
+    margin: 97px 165px 61px 0px;
+  }
+  .hero{
+    width: 1110px;
+    height: 511px;
+    margin: 0px 165px;
+  }
+  .hero img {
+    width: 730px;
+    height: 300px;
+    margin-left: -377px;
+  }
+  .hero h1 {
+    width: 350px;
+    height: 182px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 56px;
+    text-align: left;
+    margin: 28px 0px 0px 0px;
+  }
+  .hero p {
+    width: 350px;
+    height: 104px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 415px;
+    margin-top: -191px;
+  }
+  .payment-type {
+    width: 185px;
+    height: 48px;
+    margin-top: 22px;
+    margin-left: 415px;
+  }
+  .payment-packs{
+    width: 350px;
+    height: 511px;
+    margin-top: -511px;
+    margin-left: 925px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 32px; 
+    width: 1110px;
+    height: 129px;
+    margin-top: 71px;
+    margin-left: 154px;
+}
+
+.grid-container .item {
+    display: flex; 
+    align-items: center; 
+}
+
+.grid-container .item img {
+    margin-right: 24px; 
+}
+
+
+
+.text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(197, 198, 206, 1);
+    margin: 0; 
+}
+
+.text h4 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 41px;
+    text-align: left;
+    margin: 0; 
+}
+
+.text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(94, 96, 122, 1);
+    margin: 0;
+    margin-top: 22px;
+}
+
+.text a:hover {
+    color: rgba(241, 93, 81, 1);
+}
+
+
+}
